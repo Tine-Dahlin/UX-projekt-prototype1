@@ -1,0 +1,569 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #EFEFEF;
+}
+
+.background-color {
+    background-color: #EFEFEF;
+}
+
+.arrow {
+    margin-top: 1em;
+    margin-left: 1em;
+    width: 5%;
+}
+
+h1 {
+    font-weight: 300;
+    font-size: 4em;
+    text-align: center;
+}
+
+
+h2 {
+    font-weight: 400;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+
+p {
+    font-size: 1.1em;
+    font-weight: 200;
+    margin-top: 0.8em;
+    margin-bottom: 0.3em;
+}
+
+.fontstyle {
+    font-weight: 400;
+    font-size: 1.2em;
+    padding-top: 12px;
+}
+
+.fontstyle2 {
+    font-weight: 200;
+    font-size: 1.2em;
+    padding-top: 7px;
+}
+
+.fontstyle3 {
+    font-weight: 400;
+    font-size: 1.2em;
+}
+
+/*  Logo styling */
+.logo {
+    width: 300px;
+    padding: 20px;
+}
+
+
+/*til alle links*/
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:active {
+    border-color: black;
+    box-shadow: 0 0 8px 0 black;
+}
+
+
+
+
+/*Generel styling på alle knapperne*/
+.mybooks-button {
+    background: #E8B972;
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.button {
+    background: #80B5C0;
+    padding: 15px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+.styling_button {
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    margin-left: 190px;
+    margin-right: 190px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*index: login knappen*/
+.styling-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+
+
+.login {
+    background-color: #80B5C0;
+    padding: 45px;
+    border-radius: 15px;
+}
+
+a.login {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+/*indexto: Login med username og password*/
+.login-container {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    width: 350px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 2rem;
+}
+
+.input {
+    background: #fafafa;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    width: 92%;
+}
+
+.tekstboks {
+    margin-bottom: 1rem;
+}
+
+.button {
+    background: #80B5C0;
+    padding: 10px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+/*indexfire. søgefelt til at finde bøger*/
+
+
+
+
+
+
+
+
+/*my account*/
+
+.container-account {
+    display: grid;
+    grid-template-columns: 90px auto auto;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    margin: 30px;
+}
+
+.en-bog img,
+.to-bog img,
+.tre-bog img,
+.fire-bog img {
+    width: 100%;
+}
+
+
+.en-bog {
+    grid-area: 1/1/2/2;
+
+}
+
+.en-tekst {
+    grid-area: 1/2/2/3;
+    padding-right: 80px;
+    
+
+}
+
+.en-return {
+    grid-area: 1/3/2/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.to-bog {
+    grid-area: 2/1/3/2;
+}
+
+
+.to-tekst {
+    grid-area: 2/2/3/3;
+    padding-right: 80px;
+    padding-top: 17px;
+}
+
+.to-tekst2 {
+    grid-area: 2/2/3/3;
+    padding-right: 80px;
+    
+}
+
+.to-return {
+    grid-area: 2/3/3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tre-bog {
+    grid-area: 3/1/4/2;
+}
+
+
+.tre-tekst {
+    grid-area: 3/2/4/3;
+    padding-right: 80px;
+    padding-top: 17px
+}
+
+.tre-return {
+    grid-area: 3/3/4/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/*indexseks.html: Where to you want to pick it up?*/
+
+
+
+
+/*Indexsyv: Reservation completed*/
+.v {
+    display: flex;
+    justify-content: center;
+    margin-top: 4em
+}
+
+.tekstbox {
+    background: #EFEFEF;
+    border: 4px solid #80B5C0;
+    box-sizing: border-box;
+    border-radius: 15px;
+    font-size: 2em;
+    text-align: center;
+    margin-left: 5em;
+    margin-right: 5em;
+    margin-top: 2em;
+    padding-top: 1em;
+    padding-bottom: 1em
+}
+
+
+
+
+
+
+
+/*return books*/
+
+.return-container {
+    display: grid;
+    grid-template-columns: 100px auto auto;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 15px;
+    margin: 30px;
+
+}
+
+
+
+/*Yes or no to return book*/
+.container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+.img1 {
+    grid-area: 1/1/2/2;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.img2 {
+    grid-area: 1/2/2/3;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+.container2 {
+    display: grid;
+    margin-top: 50px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+
+
+.btn1 {
+    grid-area: 1/1/2/2;
+    background: #80B5C0;
+    padding: 15px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+
+}
+
+.btn2 {
+    grid-area: 1/2/2/3;
+    background: #80B5C0;
+    padding: 15px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+}
+
+/*biblioteket søg*/
+
+.sog-button {
+    background: #80B5C0;
+    padding: 7px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 1px solid #eeeeee;
+    font-weight: 200;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.inputto {
+    background: #fafafa;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    width: 60%;
+}
+
+
+/*Biblioteket API styling*/
+
+#soegeknap {
+    background: #80B5C0;
+    padding: 7px;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+    border: 1px solid #eeeeee;
+    font-weight: 200;
+    font-size: 1em;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.inputto {
+    background: #fafafa;
+    border-radius: 15px;
+    border: 1px solid #eeeeee;
+    padding: 12px;
+    width: 60%;
+}
+
+
+
+.panel {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+}
+
+.boget {
+    width: 100%;
+    grid-area: 1/1/4/2;
+}
+
+.bogto {
+    width: 90%;
+    grid-area: 1/1/4/2;
+}
+
+.bogtre {
+    width: 90%;
+    grid-area: 1/1/4/2;
+}
+
+#paneltekst0 {
+    grid-area: 1/3/4/4;
+    margin: 0 auto;
+}
+
+#paneltekst1 {
+    grid-area: 1/3/4/4;
+    margin: 0 auto;
+}
+
+#paneltekst2 {
+    grid-area: 1/3/4/4;
+    margin: 0 auto;
+}
+
+a.knap-reserver {
+    grid-area: 4/1/5/4;
+    background: #E8B972;
+    width: 30%;
+    margin: 0 auto;
+    border-radius: 50px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ikonet {
+    grid-area: 1/2/2/3;
+    width: 60%;
+    margin: 0 auto;
+
+
+}
+
+.ikonto {
+    grid-area: 2/2/3/3;
+    width: 60%;
+    margin: 0 auto;
+
+}
+
+.ikontre {
+    grid-area: 3/2/4/3;
+    width: 60%;
+    margin: 0 auto;
+    
+}
+
+.ikontre-andensidste {
+    grid-area: 3/2/4/3;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: -30px;
+}
+
+.ikontre-sidste {
+    grid-area: 3/2/4/3;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    
+}
+
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+    background-color: lightgrey;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+    background-color: darkgrey;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+    padding: 0 18px;
+    background-color: #EFEFEF;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-top: 20px;
+}
+
+.accordion:after {
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796";
+    /* Unicode character for "minus" sign (-) */
+}

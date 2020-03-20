@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+   
+    <meta charset="utf-8">
+    
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,700,900&display=swap" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---altid unik title-->
+    <title></title>
+
+    <!---udfyld content med en beskrivelse ad sidens indhold - unik for hver side op til 155--->
+    <meta name="description" content="">
+
+
+    <!----dette link referer til css stylesheet---->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+ 
+  <header>
+            <a href="indextre.html"><img src="images/pil.png" class="arrow" alt="">
+            </a>
+        </header>
+        
+<h1 class="bibliotek">Library</h1>
+ 
+  
+   <header>
+       <h3><input type="text" id="soegefelt" class="inputto"><br><br></h3>
+        
+       <h2><button type="button" id="soegeknap">Search</button></h2><br>
+    </header>
+   
+    
+    
+    <br>
+    
+    
+     <h2>3 books from Jon Duckett</h2>
+    
+    <button class="accordion" id="paneloverskrift0">Section 1</button>
+    <div class="panel">
+    <p id="paneltekst0"></p>
+    <img class="boget" src="images/1bog.JPG" alt="bog">
+    <img class="ikonet" src="images/or.svg" alt="ikon">
+    <img class="ikonto" src="images/forfatter.svg" alt="ikon">
+    <img class="ikontre" src="images/isbn.svg" alt="ikon">
+        
+
+        <a href="indexseks.html" class="knap-reserver"><h2>Reserve book</h2></a>
+    </div>
+
+  
+   
+    <button class="accordion" id="paneloverskrift1">Section 2</button>
+    <div class="panel">
+    <p id="paneltekst1"></p>
+    <img class="bogto" src="images/2bog.jpg" alt="bog">
+    <img class="ikonet" src="images/or.svg" alt="ikon">
+    <img class="ikonto" src="images/forfatter.svg" alt="ikon">
+    <img class="ikontre-andensidste" src="images/isbn.svg" alt="ikon">
+        
+
+        <a href="indexseks.html" class="knap-reserver"><h2>Reserve book</h2></a>
+    
+    </div>
+    
+
+   
+    <button class="accordion" id="paneloverskrift2">Section 3</button>
+    <div class="panel">
+    <p id="paneltekst2"></p>
+    <img class="bogtre" src="images/3bog.jpg" alt="bog">
+    <img class="ikonet" src="images/or.svg" alt="ikon">
+    <img class="ikonto" src="images/forfatter.svg" alt="ikon">
+    <img class="ikontre-sidste" src="images/isbn.svg" alt="ikon">
+        
+
+        <a href="indexseks.html" class="knap-reserver"><h2>Reserve book</h2></a>
+    </div>
+
+   
+   
+
+    <script src="accordion.js"></script>
+    <script src="boeger.js"></script>
+    <script>
+        findBoegerMed("Jon Duckett");
+
+    </script>
+</body>
+
+</html>
